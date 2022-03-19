@@ -1,0 +1,20 @@
+:root {
+    --light-color: #F8F9FA;
+    --secondary-color: #426cb4;
+    --dark-gray: #575757;
+    --light-gray: #d1d1d1;
+}
+
+.BlockchainPage {
+    text-align: center;
+}
+
+.btn {
+    margin: 1rem;
+    background: var(--secondary-color);
+}
+
+.btn:hover {
+    background: var(--light-gray);
+    color: var(--light-color)
+}

@@ -1,0 +1,27 @@
+:root {
+    --light-color: #F8F9FA;
+    --secondary-color: #426cb4;
+    --dark-gray: #575757;
+    --light-gray: #d1d1d1;
+}
+
+.light-text {
+    color: var(--light-color)
+}
+
+.Blockchain {
+    background-color: var(--light-gray);
+    display: flex;
+    width: 90vw;
+    height: 40vh;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.Block {
+    width: 80%;
+    height: 80%;
+    margin: 1rem;
+    background-color: var(--dark-gray);
+    text-align: center;
+}
