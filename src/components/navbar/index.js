@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from './navbar.css';
+import './navbar.modules.css';
 
 export default function NavbarComponent() {
   return (
@@ -22,27 +22,27 @@ export default function NavbarComponent() {
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
                 <a class="nav-link" href="/index">
-                  <span className={styles.text}>Home</span>
+                  <span className="text">Home</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                <span className={styles.text}>Criptocoins</span>
+                <span className="text">Criptocoins</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                <span className={styles.text}>NFTs</span>
+                <span className="text">NFTs</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                <span className={styles.text}>Smart Contracts</span>
+                <span className="text">Smart Contracts</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                <span className={styles.text}>About Us</span>
+                <span className="text">About Us</span>
                 </a>
               </li>
             </ul>
