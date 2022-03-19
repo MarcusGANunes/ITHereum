@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.modules.css";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 export default function FooterComponent() {
   return (
@@ -15,6 +15,9 @@ export default function FooterComponent() {
           </li>
           <li>
             <FaLinkedin />
+          </li>
+          <li>
+            <FaYoutube />
           </li>
         </ul>
         <p className="copy_right">
