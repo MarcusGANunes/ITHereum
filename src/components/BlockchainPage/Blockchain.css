@@ -5,6 +5,10 @@
     --light-gray: #d1d1d1;
 }
 
+body p {
+    font-size: 0.8rem;
+}
+
 .light-text {
     color: var(--light-color)
 }
@@ -40,4 +44,24 @@
     box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 1280px) {
+    body p {
+        font-size: 1rem;
+    }
+    .btn {
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .Blockchain {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body p {
+        font-size: 0.5rem;
+    }
+    .Block {
+        height: 40vh;
+    }
+}
