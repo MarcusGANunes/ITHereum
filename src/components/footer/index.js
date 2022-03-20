@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 export default function FooterComponent() {
   return (
     <footer>
-      <div className="footer">
+      <div className="footerContent">
         <ul className="social_list">
           <li>
             <FaFacebook />

@@ -21,7 +21,7 @@ export default function NavbarComponent() {
           <div class="collapse navbar-collapse" id="navbarSite">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="/index">
+                <a class="nav-link" href="/home">
                   <span className="text">Home</span>
                 </a>
               </li>
@@ -36,12 +36,12 @@ export default function NavbarComponent() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/smartcontracts">
+                <a class="nav-link" href="/smart-contracts">
                 <span className="text">Smart Contracts</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/aboutus">
                 <span className="text">About Us</span>
                 </a>
               </li>
