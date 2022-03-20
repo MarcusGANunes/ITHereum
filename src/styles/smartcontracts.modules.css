@@ -3,6 +3,10 @@
     padding: 0;
   }
   
+  .background{
+      background-color: #CDCDCD;
+  }
+  
   .content {
     display: flex;
     flex-direction: column;
@@ -17,21 +21,24 @@
   .title {
     width: 100%;
     position: relative;
+    margin-top: 1em;
+    margin-bottom: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-weight: bold;
-    color: #000000;
+    color: #328CC1;
     font-size: x-large;
   }
   
   .subtitle {
     width: 100%;
-    color: #000000;
+    color: #328CC1;
+    margin-bottom: 2em;
   }
   
   .texts {
-    margin-top: 1rem;
+    margin-top: 0rem;
     text-align: justify;
     width: 100%;
   }
@@ -48,5 +55,10 @@
     align-items: center;
     text-align: center;
     width: 180vh;
+  }
+
+  .button {
+      margin: 2em;
+      align-items: center;
   }
   

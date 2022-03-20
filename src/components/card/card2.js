@@ -11,7 +11,8 @@ export default function ImgMediaCard() {
         component="img"
         alt="Marcus Gabriel de Almeida Nunes"
         height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        width="100"
+        image="marcus.png"
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
