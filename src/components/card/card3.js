@@ -11,7 +11,7 @@ export default function ImgMediaCard() {
         component="img"
         alt="Rafael Silva de Oliveira"
         height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        image="rafael.png"
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
@@ -20,7 +20,7 @@ export default function ImgMediaCard() {
         <Typography variant="body2" color="text.secondary">
           18 years-old FullStack developer wannabe, passes most of its free time
           playing games and studying Front and Back-end development. Won gold
-          medals in physics and chemistry olympiads and studies at one of the
+          medals at physics and chemistry olympiads and studies at one of the
           most respected universities in Brazil, ITA.
         </Typography>
       </CardContent>

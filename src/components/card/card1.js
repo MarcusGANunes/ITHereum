@@ -11,7 +11,7 @@ export default function ImgMediaCard() {
         component="img"
         alt="Walter Melhado Arbiol Forné"
         height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        image="walter.png"
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">

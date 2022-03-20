@@ -16,11 +16,10 @@ export default function AboutUs() {
             <h2>Our Goal</h2>
           </div>
           <p>
-            We are 3 sophomores at ITA with a huge desire to popularize
-            knowledge about web 3.0
+            We are 3 brazilian College Students willing to spread knowledge about Web 3.0, the next tecnhological leap in Internet's history.
           </p>
           <div className="subtitle">
-            <h2>Team</h2>
+            <h2>Meet the Team</h2>
           </div>
           <div className="horizontalContainer">
             <Card_1 />
