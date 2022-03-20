@@ -59,27 +59,123 @@ export default function Learning() {
             <ul>
               <li>
                 <p>
-                  " To set an specific version: ""pragma solidity 0.8.10;"" "
+                  To set an specific version: pragma solidity 0.8.10;
                 </p>
               </li>
               <li>
                 <p>
-                  " To set a range: """pragma solidity {">=0.4.0 < 0.8.0"}; """
-                  "
+                  To set a range: pragma solidity {">=0.4.0 < 0.8.0"};
                 </p>
               </li>
               <li>
                 <p>
-                  " To work with 0.a.(anything): ""pragma solidity ^0.4.0;"" "
+                  To work with 0.a.(anything): pragma solidity ^0.4.0;
                 </p>
               </li>
               <li>
                 <p>
-                  " In this tutorial we are going to work with 0.8.* versions:
-                  ""pragma solidity ^0.8.0;"" "
+                  In this tutorial we are going to work with 0.8.* versions:
+                  pragma solidity ^0.8.0;
                 </p>
               </li>
             </ul>
+          </div>
+          <div>
+            <p>
+              Now lets do our first contract. It is going to return to us a
+              counter that can storage a number, increase and decrease this
+              number. so let’s just declare our Counter:
+            </p>
+          </div>
+          <div>
+            <img src="a.png" alt="" />
+          </div>
+          <div>
+            <p>
+              And now declare our first variable. To declare a variable in
+              Solidity we need first say what's going to be the data type: a
+              integer? a string (texts variables)? an address (the hash)? or
+              maybe a boolean value (a true or false variable)? By now lets
+              concentrate in unsigned integer, meaning non negative integers
+              (uint) variable and declare the count:
+            </p>
+          </div>
+          <div>
+            <img src="b.png" alt="" />
+          </div>
+          <div>
+            <p>
+              Now lets declare the function increment. So to increment 1 value
+              to the "count" variable "count" is goint to receive "count + 1".
+              So lets declare the increment function?
+            </p>
+          </div>
+          <div>
+            <img src="c.png" alt="" />
+          </div>
+          <div>
+            <p>
+              So here we can notice that the "equal" signal don't means equal,
+              but means "receive", so we can read "count = count + 1;" as "count
+              receive count plus one". Now with this function lets create the
+              event "incremen". This event is goint to increment a number, in
+              specificaly a "uint value":
+            </p>
+          </div>
+          <div>
+            <img src="d.png" alt="" />
+          </div>
+          <div>
+            <p>
+              Thus, the function increment needs to emit the Increment of the
+              count, and our code gets like this:
+            </p>
+          </div>
+          <div>
+            <img src="e.png" alt="" />
+          </div>
+          <div>
+            <p>Accordingly we can do the same to a decrease function: </p>
+          </div>
+          <div>
+            <img src="f.png" alt="" />
+          </div>
+          <div>
+            <p>
+              By now we didn't say if this functions is going to be visible
+              outside the contrat. So that we can call this functions outside
+              the contrat we are going to specify that they are public:
+            </p>
+          </div>
+          <div>
+            <img src="g.png" alt="" />
+          </div>
+          <div>
+            <p>
+              We need something to set the initial value to the "count" value
+              right? And more than that, we need to see the "count" out side the
+              the contract too. So, by last lets makes it public and set an
+              initial value:
+            </p>
+          </div>
+          <div>
+            <img src="h.png" alt="" />
+          </div>
+          <div>
+            <p>
+              And if you make everything right you are going to get this code:
+            </p>
+          </div>
+          <div>
+            <img src="i.png" alt="" />
+          </div>
+          <div>
+            <p>
+              Goes to the Solidity Compiler Section, makes sure that the
+              compiler is in line with what we stated in the first line and
+              click on compile and to deploy it just go to the Deploy & Run
+              Transaction Section and click on Deploy:
+            </p>
           </div>
           <div>
             <p>{"Código aqui"}</p>
@@ -98,7 +194,7 @@ export default function Learning() {
               should get something like this:
             </p>
           </div>
-          
+
           <div className={styles.image_10}>
             <img src="10.png" alt="" />
           </div>
