@@ -3,7 +3,7 @@ import styles from "../styles/learning.modules.css";
 
 export default function Learning() {
   return (
-    <div className="container">
+    <div className="container-learning">
       <div className="leftContent">
         <div className="texts">
           <div>
