@@ -24,15 +24,15 @@ function Blockchain(props) {
                     setBlockchain(atualBlockchain)
                 }}
             >
-                Novo Bloco
+                New Block
             </div>
             {blockchain.map((block, index) => {
                 return (
                     <div key={index} className='Block light-text'>
-                        <h1>Bloco {!block.index ? block.index + ' (Bloco Gênese)' : block.index}</h1>
-                        <p><strong>Data e Hora</strong>: {block.timestamp}</p>
+                        <h1>Block #{!block.index ? block.index + ' (Genesis Block)' : block.index}</h1>
+                        <p><strong>Timestamp</strong>: {block.timestamp}</p>
                         <p><strong>Hash:</strong> {block.hash}</p>
-                        <p><strong>Hash Anterior:</strong> {block.previousHash}</p>
+                        <p><strong>Previous Hash:</strong> {block.previousHash}</p>
                     </div>
                 )
             })}

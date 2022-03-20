@@ -21,7 +21,7 @@ function BlockchainPage() {
                     setBlockchains(atualBlockchains)
                 }}
             >
-                Nova Blockchain
+                New Blockchain
             </div>
             {blockchains.map((bc, index) => {
                 return (
