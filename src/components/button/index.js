@@ -5,7 +5,7 @@ export default function ButtonComponent() {
   return (
     <div className="button">
       <div className="link">
-        <a href="/">Get Started</a>
+        <a href="/learning">Get Started</a>
       </div>
     </div>
   );

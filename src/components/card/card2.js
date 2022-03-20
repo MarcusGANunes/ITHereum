@@ -19,12 +19,10 @@ export default function ImgMediaCard() {
           <strong>Marcus Gabriel de Almeida Nunes</strong>
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Beyounds the college, works mainly in web scraping services and in its
-          free time studies about development and web 3.0 technologies. Got some
-          prizes in scientific olympics on high school, as honorable mension in
-          brazilian computer olympics or a silver medal into Canguru's
-          Mathmatics Olimpics, and as the others 2 pass into the hardest
-          entrance exam of the Latin America (the ITA exam).
+          A FullStack Developer at ITA Júnior and student of Electronic
+          Engineering at Aeronautics Institute of Tecnology. Before college,
+          owned some medals in Physics and Chemistry Olympiads. Spends the free
+          time learning about Tecnology, Crypto and Web Development.
         </Typography>
       </CardContent>
     </Card>

@@ -82,6 +82,63 @@ export default function Home() {
           <div className="subtitle">
             <h2>A New Way of Building Companies</h2>
           </div>
+          <p>
+            Tokens also brings about the idea of tokenization and the
+            realization of a token economy. Take, for example, the current state
+            of building a software company. Someone comes up with an idea, but
+            in order to start building they need money in order to support
+            themselves. To get the money, they take on venture capital and give
+            away a percentage of the company. This investment immediately
+            introduces mis-aligned incentives that will, in the long run, not
+            align well with building out the best user experience. Also, if the
+            company ever does become successful, it will take a very long time
+            for anyone involved to realize any of the value, often leading to
+            years of work without any real return on investment. Imagine,
+            instead, that a new and exciting project is announced that solves a
+            real problem. Anyone can participate in building it or investing in
+            it from day one. The company announces the release of x number of
+            tokens, and give 10% to the early builders, put 10% for sale to the
+            public, and set the rest aside for future payment of contributors
+            and funding of the project. Stakeholders can use their tokens to
+            vote on changes to the future of the project, and the people who
+            helped build the project can sell some of their holdings to make
+            money after the tokens have been released. People who believe in the
+            project can buy and hold ownership, and people who think the project
+            is headed in the wrong direction can signal this by selling their
+            stake. Because blockchain data is all completely public and open,
+            purchasers have complete transparency over what is happening. This
+            is in contrast to buying equity in private or centralized businesses
+            where many things are often maintained in secrecy, all of it lead to
+            DAOs (Decentralized Autonomous Organizations) that you can learn
+            into the [DAO section](link) How Identity Works in Web3 In web3,
+            Identity also works much differently than what we are used to today.
+            Most of the time in web3 apps, identities will be tied to the wallet
+            address of the user interacting with the application. Unlike web2
+            authentication methods like OAuth or email + password (that almost
+            always require users to hand over sensitive and personal
+            information), wallet addresses are completely anonymous unless the
+            user decides to tie their own identity to it publicly. Cons about
+            WEB3: - Web3 "tweets" would be uncensorable because control is
+            decentralized - Web3 payment apps require no personal data and can't
+            prevent payments for ilegall types of work. - By now has small
+            scalability – transactions are slower on web3 because they're
+            decentralized. Changes to state, like a payment, need to be
+            processed by a miner and propagated throughout the network. - Harder
+            adoption – interacting with web3 applications can require extra
+            steps, software, and education. - Small accessibility – the lack of
+            integration in modern web browsers makes web3 less accessible to
+            most users. - It's expensive to put code on the blockchain – most
+            successful dapps put very small portions of their code on the
+            blockchain But these is not impeditive and don't turn Web3 into an
+            utopia. Radicle (a decentralized GitHub alternative) allows
+            stakeholders to participate in the governance of their project.
+            Gitcoin allows developers to get paid in cryptocurrency for jumping
+            in and working on Open Source issues. Yearn allows stakeholders to
+            participate in decision making and voting on proposals. Uniswap,
+            SuperRare, The Graph, Audius, and countless other protocols and
+            projects are rising by now a days. There is a "free lancer" tasks in
+            which are paied with tokens: <a href="dework.xyz">dework.xyz</a> .
+          </p>
         </div>
       </div>
     </div>

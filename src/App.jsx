@@ -8,6 +8,7 @@ import BlockchainPage from "./components/BlockchainPage/BlockchainPage";
 import NFTs from "./pages/nfts";
 import SmartContracts from "./pages/smartcontracts";
 import AboutUs from "./pages/aboutus";
+import Learning from "./pages/learning";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/nfts" element={<NFTs />} />
             <Route path="/smart-contracts" element={<SmartContracts />} />
             <Route path="/aboutus" element={<AboutUs />} />
+            <Route path="/learning" element={<Learning />} />
           </Routes>
           <FooterComponent />
         </div>

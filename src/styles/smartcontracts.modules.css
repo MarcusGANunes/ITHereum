@@ -104,9 +104,9 @@
 
 .buttonContainer {
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     align-items: center!important;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
