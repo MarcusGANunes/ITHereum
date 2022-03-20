@@ -15,29 +15,26 @@ export default function SmartContracts() {
           </div>
           <p>
             In short, smart contracts are contract systems used to automatically
-            execute transactions without the need for the company, government or
-            entity to intermediary, in other words, without big fees and
-            bureaucracy. It helps with the 3 mains blockchain's properties which
-            are:
+            execute transactions without the need of any companies, governments or
+            entities as intermediaries. In other words, without expensive fees nor
+            bureaucracy. It supports 3 of Blockchains main properties, which are:
           </p>
           <ol>
-            <li>Optimize Security</li>
-            <li>Optimize Decentralization</li>
-            <li> Optimize Scalability</li>
+            <li>Optimized Security</li>
+            <li>Optimized Decentralization</li>
+            <li> Optimized Scalability</li>
           </ol>
           <p>
-            In layman's terms, if you want to write a will inside a smart
+            In layman's terms, if one wouldd want to write a will inside a smart
             contract, a lawyer writes this contract in natural language and a
             developer transcribes this information into a programming language.
-            You describe all of your assets, your heirs and everything, and when
+            One can describe all of it's assets and heirs, for example, and when
             the death certificate is published on the network, the transfer of
-            goods takes place automatically, quickly, without bureaucracy, with
+            goods takes place automatically, quickly, without any kind of bureaucracy, with
             the due taxes already paid and with little cost compared to the
-            traditional will. This is because all participants involved in the
-            transfer of assets are connected in a single, integrated system. So
-            we can reduce all of it to a self-executing computer protocol that
-            it's safety are assured by blockchain. To get into Smart Contracts
-            codes click below.
+            traditional will's system. This is because all participants involved in the
+            transfer of assets are connected in a single, integrated system, so
+            we can reduce it to a self-executing computer protocol which safety is assured by a blockchain. If you want to get started, just click below.
           </p>
           <div className="buttonContainer">
             <ButtonComponent />
