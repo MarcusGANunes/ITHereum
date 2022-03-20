@@ -1,23 +1,28 @@
 import './Blockchain.css'
 
-import React from 'react'
+import React, { useState } from 'react'
+import { BlockClass } from '../../hash'
 
 function Blockchain(props) {
 
-    const bc = props.blockchain
+    const bc = props.blockchain //bc é um array
 
     return (
         <div className='Blockchain light-text'>
-            {bc.map(block => {
+            <div
+                className="btn"
+            >
+                Novo Bloco
+            </div>
+            {bc.map((block, index) => {
                 return (
-                    <div className='Block light-text'>
+                    <div key={index} className='Block light-text'>
                         <h1>Bloco {block.index}</h1>
                         <p>Hash: {block.hash}</p>
-                        <p>Hash Anterior: {block.prevHash}</p>
+                        <p>Hash Anterior: {block.previousHash}</p>
                     </div>
                 )
             })}
-            <div className="btn">Novo Bloco</div>
         </div>
     )
 }
