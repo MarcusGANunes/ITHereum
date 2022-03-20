@@ -1,16 +1,19 @@
 const sha256 = require('crypto-js/sha256')
 
 export class BlockClass {
-    constructor(index, data, previousHash = '') {
+    constructor(index, previousHash = '') {
+        let currentTime = new Date()
+        this.timestamp = `${currentTime.getDate()}/${currentTime.getMonth()+1}/${currentTime.getFullYear()} ${currentTime.getHours()}:${currentTime.getMinutes()}:${currentTime.getSeconds()}.${currentTime.getMilliseconds()}${currentTime.getHours() < 12 ? ' AM' : ' PM'}`
+            // this.timestamp = currentTime.getDate() + '/' + (currentTime.getMonth() + 1) + '/' + currentTime.getFullYear()
+            // + ' ' + currentTime.getHours + ':' + cu
         this.index = index
-        this.data = data
         this.previousHash = previousHash
         this.hash = this.calculateHash();
-        this.random = Math.random()
     }
 
     calculateHash() {
-        return sha256(this.index + this.previousHash + this.random + JSON.stringify(this.data)).toString();
+        console.log(this.timestamp);
+        return sha256(this.index + this.previousHash + JSON.stringify(this.timestamp)).toString();
     }
 }
 
@@ -20,7 +23,7 @@ export class BlockchainClass {
     }
 
     createGenesisBlock() {
-        return new BlockClass(0, 'Genesis Block', '0')
+        return new BlockClass(0, '0')
     }
 
     getLatestBlock() {

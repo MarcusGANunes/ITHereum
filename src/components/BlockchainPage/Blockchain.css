@@ -13,7 +13,7 @@
     background-color: var(--light-gray);
     display: flex;
     flex-direction: column;
-    width: 60vw;
+    width: 40vw;
     margin: 0 auto;
     margin-bottom: 2rem;
 }
@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     height: 30vw;
-    width: 50vw;
+    width: 90%;
     margin: 1rem auto;
     background-color: var(--dark-gray);
     text-align: center;
