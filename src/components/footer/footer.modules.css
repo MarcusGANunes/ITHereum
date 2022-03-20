@@ -1,9 +1,8 @@
-.footerContent{
-    padding: 0;
+.footerContent {
     background-color: #C0B3A0;
     color: #426cb4;
     text-align: center;
-    padding: 3em;
+    padding: 3rem;
     width: 100%;
 }
 
