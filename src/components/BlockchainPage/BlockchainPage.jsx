@@ -2,6 +2,14 @@ import './BlockchainPage.css'
 import Blockchain from './Blockchain'
 
 import React from 'react'
+import {BlockClass, BlockchainClass} from '../../hash'
+
+// const Blockchains = new BlockchainClass()
+// Blockchains.addBlock(new BlockClass(1, 'x'), {qtd: 2})
+
+// const blockchains = Blockchains.chain
+
+// console.log(blockchains);
 
 const blockchains = [
     [
@@ -44,13 +52,13 @@ const blockchains = [
 
 function BlockchainPage() {
 
-
     return (
         <div className='BlockchainPage'>
             <div className="btn">Nova Blockchain</div>
-            {blockchains.map(bc => {
+            {blockchains.map((bc, index) => {
                 return (
                     <Blockchain
+                        key = {index}
                         blockchain={bc}
                     />
                 )

@@ -1,6 +1,6 @@
-sha256 = require('crypto-js/sha256')
+const sha256 = require('crypto-js/sha256')
 
-class Block {
+export class BlockClass {
     constructor(index, timestamp, data, previousHash = '') {
         this.index = index
         this.timestamp = timestamp
@@ -14,13 +14,13 @@ class Block {
     }
 }
 
-class Blockchain {
+export class BlockchainClass {
     constructor() {
         this.chain = [this.createGenesisBlock()]
     }
 
     createGenesisBlock() {
-        return new Block(0, '14/03/2022', 'Genesis Block', '0')
+        return new BlockClass(0, '14/03/2022', 'Genesis Block', '0')
     }
 
     getLatestBlock() {
@@ -34,9 +34,9 @@ class Blockchain {
     }
 }
 
-const ursoCoin = new Blockchain()
+const ursoCoin = new BlockchainClass()
 
-ursoCoin.addBlock(new Block(1, '14/03/2022'), { qtd: 4 })
-ursoCoin.addBlock(new Block(2, '15/03/2022'), { qtd: 10 })
+ursoCoin.addBlock(new BlockClass(1, '14/03/2022'), { qtd: 4 })
+ursoCoin.addBlock(new BlockClass(2, '15/03/2022'), { qtd: 10 })
 
 console.log(JSON.stringify(ursoCoin, null, 4));
