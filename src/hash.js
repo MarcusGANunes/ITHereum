@@ -1,16 +1,16 @@
 const sha256 = require('crypto-js/sha256')
 
 export class BlockClass {
-    constructor(index, timestamp, data, previousHash = '') {
+    constructor(index, data, previousHash = '') {
         this.index = index
-        this.timestamp = timestamp
         this.data = data
         this.previousHash = previousHash
         this.hash = this.calculateHash();
+        this.random = Math.random()
     }
 
     calculateHash() {
-        return sha256(this.index + this.previousHash + this.timestamp + JSON.stringify(this.data)).toString();
+        return sha256(this.index + this.previousHash + this.random + JSON.stringify(this.data)).toString();
     }
 }
 
@@ -20,7 +20,7 @@ export class BlockchainClass {
     }
 
     createGenesisBlock() {
-        return new BlockClass(0, '14/03/2022', 'Genesis Block', '0')
+        return new BlockClass(0, 'Genesis Block', '0')
     }
 
     getLatestBlock() {
@@ -33,10 +33,3 @@ export class BlockchainClass {
         this.chain.push(newBlock)
     }
 }
-
-const ursoCoin = new BlockchainClass()
-
-ursoCoin.addBlock(new BlockClass(1, '14/03/2022'), { qtd: 4 })
-ursoCoin.addBlock(new BlockClass(2, '15/03/2022'), { qtd: 10 })
-
-console.log(JSON.stringify(ursoCoin, null, 4));

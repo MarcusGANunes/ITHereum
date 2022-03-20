@@ -1,64 +1,32 @@
 import './BlockchainPage.css'
 import Blockchain from './Blockchain'
 
-import React from 'react'
-import {BlockClass, BlockchainClass} from '../../hash'
-
-// const Blockchains = new BlockchainClass()
-// Blockchains.addBlock(new BlockClass(1, 'x'), {qtd: 2})
-
-// const blockchains = Blockchains.chain
-
-// console.log(blockchains);
-
-const blockchains = [
-    [
-        {
-            index: '0',
-            hash: '0',
-            prevHash: '-'
-        },
-        {
-            index: '1',
-            hash: '1',
-            prevHash: '0'
-        }
-    ],
-    [
-        {
-            index: '2',
-            hash: '2',
-            prevHash: '1'
-        },
-        {
-            index: '3',
-            hash: '3',
-            prevHash: '2'
-        }
-    ],
-    [
-        {
-            index: '4',
-            hash: '4',
-            prevHash: '3'
-        },
-        {
-            index: '5',
-            hash: '5',
-            prevHash: '4'
-        }
-    ]
-]
+import React, { useState } from 'react'
+import { BlockchainClass } from '../../hash'
 
 function BlockchainPage() {
 
+    const [blockchains, setBlockchains] = useState([])
+
     return (
         <div className='BlockchainPage'>
-            <div className="btn">Nova Blockchain</div>
+            <div
+                className="btn"
+                onClick={() => {
+                    const atualBlockchains = [...blockchains]
+
+                    let newBlockchain = new BlockchainClass()
+                    atualBlockchains.push(newBlockchain.chain)
+
+                    setBlockchains(atualBlockchains)
+                }}
+            >
+                Nova Blockchain
+            </div>
             {blockchains.map((bc, index) => {
                 return (
                     <Blockchain
-                        key = {index}
+                        key={index}
                         blockchain={bc}
                     />
                 )
