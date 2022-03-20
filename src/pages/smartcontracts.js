@@ -36,11 +36,12 @@ export default function SmartContracts() {
             traditional will. This is because all participants involved in the
             transfer of assets are connected in a single, integrated system. So
             we can reduce all of it to a self-executing computer protocol that
-            it's safety are assured by blockchain.
+            it's safety are assured by blockchain. To get into Smart Contracts
+            codes click below.
           </p>
-        </div>
-        <div className="button">
-          <ButtonComponent />
+          <div className="buttonContainer">
+            <ButtonComponent />
+          </div>
         </div>
       </div>
     </div>
