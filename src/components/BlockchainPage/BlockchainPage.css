@@ -11,15 +11,16 @@
 }
 
 .btn {
-    margin: 1rem;
-    background: var(--secondary-color);
-    height: 80%;
+    background-color: #328CC1;
+    margin: 0rem;
+    color: white;
+    height: 3rem;
+    width: 10rem;
     text-align: center;
+    font-size: large;
     vertical-align: middle;
-    box-shadow: 0 1px 1px 0 rgba(10, 16, 34, .2) !important;
 }
 
 .btn:hover {
-    background: #c1c1c1;
-    color: var(--light-color)
+    background: #426cb4;
 }
