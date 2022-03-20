@@ -177,9 +177,6 @@ export default function Learning() {
               Transaction Section and click on Deploy:
             </p>
           </div>
-          <div>
-            <p>{"Código aqui"}</p>
-          </div>
           <div className={styles.image_8}>
             <img src="8.png" alt="" />
           </div>
