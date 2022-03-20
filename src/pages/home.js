@@ -5,12 +5,9 @@ export default function Home() {
   return (
     <div className="background">
       <div className="content">
-        <div className="title">
-          <h1>Home</h1>
-        </div>
         <div className="texts">
           <div className="subtitle">
-            <h2>WEB 3</h2>
+            <h1>What is Web 3?</h1>
           </div>
           <p>
             To explain what is web3 we need to explain a little of the evolution
