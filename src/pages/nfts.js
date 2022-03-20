@@ -3,7 +3,7 @@ import '../styles/nfts.modules.css'
 
 export default function NFTs() {
   return (
-    <div>
+    <div className='NFTs'>
       <div className="title">
         <h1>NFTs</h1>
       </div>

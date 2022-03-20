@@ -14,7 +14,6 @@
     align-items: center;
     position: relative;
     padding: 4em;
-    box-sizing: border-box;
 }
 
 .title {
@@ -49,5 +48,9 @@
     flex-direction: row;
     align-items: center;
     text-align: center;
-    width: 180vh;
+}
+
+.NFTs {
+    width: 80vw;
+    margin: 0 auto;
 }
