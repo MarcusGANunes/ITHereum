@@ -30,9 +30,9 @@ function Blockchain(props) {
                 return (
                     <div key={index} className='Block light-text'>
                         <h1>Bloco {!block.index ? block.index + ' (Bloco Gênese)' : block.index}</h1>
-                        <p>Data e Hora: {block.timestamp}</p>
-                        <p>Hash: {block.hash}</p>
-                        <p>Hash Anterior: {block.previousHash}</p>
+                        <p><strong>Data e Hora</strong>: {block.timestamp}</p>
+                        <p><strong>Hash:</strong> {block.hash}</p>
+                        <p><strong>Hash Anterior:</strong> {block.previousHash}</p>
                     </div>
                 )
             })}
