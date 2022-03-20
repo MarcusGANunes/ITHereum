@@ -8,13 +8,13 @@ export default function Learning() {
         <div className="texts">
           <div>
             <p>
-              So, let's start. First of all lets talk about Solidity. Brithly,
+              So, let's start. First of all lets talk about Solidity. Briefly,
               Solidity is an object-oriented programming language for writing
               smart contracts on various blockchain platforms, most notably,
               Ethereum. We are going to use the Remix IDE that helps us to write
               Solidity contracts straight from the browser. If you want to get
               into the site just click on the link: https://remix.ethereum.org/
-              So in first of all select the SOLIDITY enviroment:
+              First of all, select the SOLIDITY enviroment:
             </p>
           </div>
           <div className={styles.image_1}>
