@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-.background{
-    background-color: #CDCDCD;
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -21,24 +17,21 @@
 .title {
   width: 100%;
   position: relative;
-  margin-top: 1em;
-  margin-bottom: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-weight: bold;
-  color: #328CC1;
+  color: #000000;
   font-size: x-large;
 }
 
 .subtitle {
   width: 100%;
-  color: #328CC1;
-  margin-bottom: 2em;
+  color: #000000;
 }
 
 .texts {
-  margin-top: 0rem;
+  margin-top: 1rem;
   text-align: justify;
   width: 100%;
 }
